@@ -2,7 +2,7 @@ from flask import Flask, Response, request
 import requests
 import hashlib
 import redis
-
+#TEST
 app = Flask(__name__)
 cache = redis.StrictRedis(host='redis', port=6379, db=0)
 salt = "UNIQUE_SALT"
